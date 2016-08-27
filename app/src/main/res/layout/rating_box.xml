@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rating_box"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="@dimen/screen_margin_button"
+    android:layout_marginLeft="@dimen/screen_margin"
+    android:layout_marginRight="@dimen/screen_margin">
+
+    <com.asdevel.bullscows2.ui.widgets.TextViewHand
+        android:id="@+id/rating_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:text="@string/rating"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/_gray_darker" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+        <com.asdevel.bullscows2.ui.widgets.TextViewClock
+            android:id="@+id/rating_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/_red" />
+
+        <com.asdevel.bullscows2.ui.widgets.TextViewHand
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="/"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/_gray_darker" />
+
+        <com.asdevel.bullscows2.ui.widgets.TextViewHand
+            android:id="@+id/rating_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/_red" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--heigth-->
+    <dimen name="screen_margin_top">0dp</dimen>
+    <dimen name="clock_margin_button">14dp</dimen>
+    <dimen name="gess_text_margin_button">10dp</dimen>
+    <dimen name="screen_margin_button">5dp</dimen>
+    <dimen name="floating_margin_button">0dp</dimen>
+    <dimen name="result_margin">2dp</dimen>
+    <dimen name="stats_size">30dp</dimen>
+    <dimen name="stats_text_size">22sp</dimen>
+    <dimen name="game_label_text_size">30sp</dimen>
+
+    <dimen name="screen_margin">10dp</dimen>
+    <dimen name="clock_margin">25dp</dimen>
+    <dimen name="dialog_width">300dp</dimen>
+    <dimen name="text_big">22sp</dimen>
+
+    <dimen name="navBar_padding_top">0dp</dimen>
+
+    <dimen name="paginator_size">8dp</dimen>
+    <dimen name="paginator_margin">4dp</dimen>
+</resources>

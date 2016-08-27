@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/parallax"/>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ActionBarThemeOverlay" />
+
+    <FrameLayout
+        android:id="@+id/screen_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_actionbar"
+        android:layout_marginBottom="@dimen/screen_margin_button"
+        android:layout_marginLeft="@dimen/screen_margin"
+        android:layout_marginRight="@dimen/screen_margin"
+        android:background="@drawable/memo_bg" />
+
+
+    <com.asdevel.bullscows2.ui.widgets.EditTextHand
+        android:id="@+id/gess_text"
+        style="@style/AppTheme.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/screen_margin_button"
+        android:paddingBottom="3dp"
+        android:hint="####"
+        android:imeActionId="10"
+        android:imeActionLabel="@string/k_hide"
+        android:inputType="number"
+        android:textColor="@color/_red"
+        android:visibility="gone" />
+
+    <com.asdevel.bullscows2.ui.widgets.CronometerClock
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/screen_margin_button"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="@dimen/clock_margin"
+        android:textColor="@color/_gray_darker"
+        android:textSize="22sp" />
+
+
+    <include layout="@layout/rating_box"/>
+
+    <com.asdevel.bullscows2.ui.widgets.Confeti
+        android:id="@+id/confeti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+
+    <com.asdevel.bullscows2.ui.widgets.base.FloatingActionButton
+        android:id="@+id/fabbutton"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        app:drawable="@drawable/ic_play"
+        app:floating_color="@color/_red" />
+</RelativeLayout>

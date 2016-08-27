@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                android:id="@+id/game_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="@string/texto_ayuda"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/_gray_darker" />
+
+            <ListView
+                android:id="@+id/game_list_help"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@+id/game_label"
+                android:divider="@null" />
+
+            <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="@string/texto_ayuda2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/_gray_darker" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

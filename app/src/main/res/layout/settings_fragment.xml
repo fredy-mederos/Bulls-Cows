@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/set_sound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp">
+
+                <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                    android:id="@+id/text_sound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_sonido"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/_gray_darker" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_sound"
+                    android:layout_width="61dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/setting_toggle_bg"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/_gray_dark" />
+
+            <RelativeLayout
+                android:id="@+id/set_vibr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp">
+
+                <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                    android:id="@+id/text_vibr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_vibracion"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/_gray_darker" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_vib"
+                    android:layout_width="61dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/setting_toggle_bg"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/_gray_dark" />
+
+            <RelativeLayout
+                android:id="@+id/set_lang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+
+                <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                    android:id="@+id/text_lang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/languaje"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/label_button_gray_color" />
+
+                <ImageView
+                    android:id="@+id/lang_flag"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/_gray_dark" />
+
+            <RelativeLayout
+                android:id="@+id/limpiar_estadisticas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                        android:id="@+id/text_restart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_restart"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/label_button_gray_color" />
+
+                    <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                        android:id="@+id/text_restart_msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_restart_msg"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/_red" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/_gray_dark" />
+
+
+            <RelativeLayout
+                android:id="@+id/limpiar_cache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                    android:id="@+id/limpiar_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/settings_limpiar"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/label_button_gray_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/limpiar_text"
+                    android:orientation="horizontal">
+
+                    <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                        android:id="@+id/usados_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_usados"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/_gray_darker" />
+
+                    <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                        android:id="@+id/usados_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="20kb"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/_red" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/_gray_dark" />
+
+            <RelativeLayout
+                android:id="@+id/action_about"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingBottom="10dp">
+
+                <com.asdevel.bullscows2.ui.widgets.TextViewHand
+                    android:id="@+id/text_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_about"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/label_button_gray_color" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/_gray_dark" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bulls&amp;Cows.iml" filepath="$PROJECT_DIR$/Bulls&amp;Cows.iml" group="Bulls&amp;Cows" />
+      <module fileurl="file://$PROJECT_DIR$/Bulls&amp;Cows-BullsCows2.iml" filepath="$PROJECT_DIR$/Bulls&amp;Cows-BullsCows2.iml" group="BullsCows2" />
+      <module fileurl="file://$PROJECT_DIR$/app/Bulls&amp;Cows-app.iml" filepath="$PROJECT_DIR$/app/Bulls&amp;Cows-app.iml" group="Bulls&amp;Cows/app" />
+      <module fileurl="file://$PROJECT_DIR$/BullsCows2.iml" filepath="$PROJECT_DIR$/BullsCows2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/BullsCows2-app.iml" filepath="$PROJECT_DIR$/app/BullsCows2-app.iml" group="BullsCows2/app" />
+      <module fileurl="file://$PROJECT_DIR$/Lib/Lib.iml" filepath="$PROJECT_DIR$/Lib/Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lib/isoFramework/isoFramework.iml" filepath="$PROJECT_DIR$/Lib/isoFramework/isoFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lib/isoFrameworkRes/isoFrameworkRes.iml" filepath="$PROJECT_DIR$/Lib/isoFrameworkRes/isoFrameworkRes.iml" />
+    </modules>
+  </component>
+</project>

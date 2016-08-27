@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/_red</item>
+    </style>
+
+    <style name="ActionBarThemeOverlay" parent="">
+        <item name="android:textColorPrimary">@color/_red</item>
+        <item name="colorControlNormal">@color/_red</item>
+        <item name="colorControlHighlight">@color/_red</item>
+        <item name="android:textColor">@color/_red</item>
+        <item name="actionOverflowButtonStyle">@style/MyTheme.Overflow</item>
+    </style>
+
+    <style name="MyTheme.Overflow" parent="Base.Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_more</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="android:style/Widget.EditText">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/drawable_transparent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/_gray_dark</item>
+        <item name="android:textColorHint">@color/_gray_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="AppTheme.Panel" parent="android:style/Theme.Panel">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+
+</resources>

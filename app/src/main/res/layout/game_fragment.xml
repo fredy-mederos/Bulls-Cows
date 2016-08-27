@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/empty_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <include layout="@layout/stripes"/>
+
+        <com.asdevel.bullscows2.ui.widgets.TextViewHand
+            android:id="@+id/game_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/game_label"
+            android:textColor="@color/_red"
+            android:textSize="@dimen/game_label_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/game_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:overScrollMode="never" />
+
+</RelativeLayout>

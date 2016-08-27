@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_margin_top">50dp</dimen>
+    <dimen name="clock_margin_button">35dp</dimen>
+    <dimen name="screen_margin_button">15dp</dimen>
+    <dimen name="floating_margin_button">10dp</dimen>
+    <dimen name="result_margin">2dp</dimen>
+    <dimen name="stats_size">30dp</dimen>
+    <dimen name="stats_text_size">28sp</dimen>
+    <dimen name="gess_text_margin_button">32dp</dimen>
+    <dimen name="game_label_text_size">38sp</dimen>
+    <dimen name="text_big">24sp</dimen>
+</resources>

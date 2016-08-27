@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="_black_shadow">#66000000</color>
+    <color name="_red">#cc0000</color>
+    <color name="_bull">#78767A</color>
+    <color name="_cow">#F4E1DE</color>
+    <color name="_gray_dark">#808080</color>
+    <color name="_gray_darker">#202020</color>
+    <color name="_gray_light">#f1f1f1</color>
+    <color name="_yellow">#ffefe083</color>
+</resources>
